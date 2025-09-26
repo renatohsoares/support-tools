@@ -4,6 +4,10 @@ This section contains scripts to help before, during, and after migrations.
 ## [Mongosync Insights](mongosync_insights)
 This project parses **mongosync** logs and reads the internal database (metadata), generating a variety of plots to assist with monitoring and troubleshooting ongoing mongosync migrations.
 
+
+## MongoDB _id Checker
+This script analyzes MongoDB collections for non-ObjectId _id types and insertion-order correlation patterns, predicting potential mongosync migration performance issues and providing optimization recommendations.
+
 ### License
 
 [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0)
