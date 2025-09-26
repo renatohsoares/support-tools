@@ -113,7 +113,7 @@ The script operates with these default settings:
 
 ```
 mongodb_id_checker/
-├── mongodb_id_checker.js    # Main analysis script (NO safety features)
+├── mongodb_id_checker.js    # Main analysis script
 └── README.md               # This documentation
 ```
 
